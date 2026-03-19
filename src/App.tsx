@@ -35,7 +35,7 @@ function App() {
             </h2>
             <p className="text-lg text-gray-500 dark:text-gray-400">
               Drop your file below and get clean, downloadable Markdown in seconds.
-              No sign-up. No paywall. Completely free.
+              No sign-up. No paywall. No data stored. Completely free.
             </p>
           </div>
 
