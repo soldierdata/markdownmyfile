@@ -43,6 +43,18 @@ function App() {
             <DropZone onFilesAdded={addFiles} />
           </div>
 
+          {/* Format use-cases — SEO keyword hints */}
+          <div className="mt-12 w-full max-w-2xl grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-2 text-xs text-gray-400 dark:text-gray-500">
+            <span><strong className="text-gray-500 dark:text-gray-400">.docx</strong> → GitHub wikis</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.pdf</strong> → Obsidian notes</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.xlsx</strong> → Markdown tables</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.pptx</strong> → Static sites</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.html</strong> → Clean Markdown</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.rtf</strong> → Plain text docs</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.csv</strong> → Data tables</span>
+            <span><strong className="text-gray-500 dark:text-gray-400">.txt</strong> → Formatted docs</span>
+          </div>
+
           {/* How it works */}
           <div className="mt-16 w-full max-w-3xl">
             <h3 className="text-center text-sm font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-widest mb-8">
