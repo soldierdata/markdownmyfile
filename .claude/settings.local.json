@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls \"C:/Users/james/Documents/Apps/MD Converter/node_modules/.bin/vite\"*)",
+      "Bash(pandoc \"C:/Users/james/Downloads/markdownmyfile_prd.docx\" -o \"C:/Users/james/Downloads/markdownmyfile_prd_extracted.md\")",
+      "Read(//c/Users/james/Downloads/**)"
+    ]
+  }
+}
